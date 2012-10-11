@@ -109,7 +109,6 @@ GoogleSpreadsheet.find = function(params) {
   @Ryan Weiss - 10/11/12 (hah)
 */
 GoogleSpreadsheet.callbackCells = function(data) {
-  console.log("CallbackCells", data);
   var cell, googleSpreadsheet, googleUrl;
   googleUrl = new GoogleUrl(data.feed.id.$t);
   googleSpreadsheet = GoogleSpreadsheet.find({
