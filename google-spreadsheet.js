@@ -131,7 +131,7 @@ GoogleSpreadsheet.callbackCells = function(data) {
 
     var cols = "ABCDEFGHIJKLMNOPQRSTUVQXY";
     var expectedCol = 'A', currCol = 0;
-    var currRow = 3; //first row of data
+    var currRow = 2; //first row of data
     var currRowData = []; //current row data;
     var doHeaderCheck = true; //the data row numbers are not correct, and "1" is returned many times, so we only want the first
 
